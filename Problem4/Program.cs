@@ -4,11 +4,11 @@ int firstNumber = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Enter second number: ");
 int secondNumber = Convert.ToInt32(Console.ReadLine());
 
-int result = Multiply(firstNumber, secondNumber);
+int result = Divide(firstNumber, secondNumber);
 
-Console.WriteLine("The multiplication is: " + result);
+Console.WriteLine("The divide is: " + result);
 
-int Multiply(int firstNumber, int secondNumber)
+int Divide(int firstNumber, int secondNumber)
 {
-    return firstNumber * secondNumber;
+    return firstNumber / secondNumber;
 }
